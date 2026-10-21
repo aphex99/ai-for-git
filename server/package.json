@@ -1,0 +1,10 @@
+{
+  "name": "@ai-code-investigator/server",
+  "private": true,
+  "scripts": {
+    "build": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
