@@ -1,8 +1,9 @@
 {
   "name": "ai-code-investigator",
   "private": true,
-  "workspaces": [
-    "client",
-    "server"
-  ]
+  "scripts": {
+    "dev": "pnpm --parallel --recursive run dev",
+    "dev:client": "pnpm --filter @ai-code-investigator/client dev",
+    "dev:server": "pnpm --filter @ai-code-investigator/server dev"
+  }
 }
